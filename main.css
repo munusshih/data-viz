@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Merriweather:ital,wght@0,300;1,300&family=Miriam+Libre&family=Roboto:wght@300;400&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.tooltip {
+    position: absolute;
+    display: none;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 3px;
+    box-shadow: -3px 3px 15px #888;
+    color: white;
+    padding: 6px;
+}
+
+#curtain {
+    background: #000;
+    z-index: 9999;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 40%;
+    height: 100%;
+}
+
+#curtainer {
+    background: #000;
+    z-index: 9999;
+    position: fixed;
+    right: 0px;
+    width: 60%;
+    height: 100%;
+}
+
+body {
+    font-size: 10px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    background: #000;
+    color: #fff;
+}
+
+h1 {
+    font-size: 2.5vw;
+    line-height: 1.2;
+    font-family: 'Miriam Libre', sans-serif;
+    letter-spacing: 2px;
+}
+
+h2 {
+    margin-top: 16px;
+    line-height: 1.5;
+    font-size: 13px;
+    font-style: italic;
+    color: #ddd;
+    font-family: 'Merriweather', serif;
+    letter-spacing: 0px;
+}
+
+.divider {
+    float: left;
+    margin-top: 40px;
+    width: 30%;
+    height: 3px;
+    background: #FFA225;
+}
+
+.dividerr {
+    float: left;
+    margin-top: 40px;
+    width: 20%;
+    height: 3px;
+    background: #FFC591;
+}
+
+.dividerrr {
+    float: left;
+    margin-top: 40px;
+    width: 10%;
+    height: 3px;
+    background: #FFEDA0;
+}
+
+/* "FFA585","FFAD88","FFB58B","FFBD8E","FFC591","FFCD94","FFD597","FFDD9A","FFE59D","FFEDA0"] */
+
+h3 {
+    width: 80%;
+    margin-top: 70px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+    font-size: 1s5px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0px;
+}
+
+h4 {
+    width: 100%;
+    margin-bottom: 2px;
+    line-height: 1.8;
+    font-size: 8px;
+    font-style: italic;
+    font-family: 'Merriweather', serif;
+    letter-spacing: 0px;
+    color: #777;
+}
+
+h4 a {
+    color: #777;
+}
+
+h4 a:hover {
+    color: #ccc;
+}
+
+select {
+    float: left;
+    display: block;
+    font-size: 12px;
+    margin-right: 40%;
+    width: 60%;
+    background: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    margin-top: 120px;
+    margin-bottom: 20px;
+    padding-right: 25%;
+    line-height: 1.8;
+    font-size: 12px;
+    color: #ddd;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0px;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #fff;
+    shape-rendering: crispEdges;
+}
+
+.x.axis path {
+    display: none;
+}
+
+#lefter {
+    position: static;
+    display: block;
+    float: left;
+    width: 37%;
+    padding: 3%;
+}
+
+#my_dataviz {
+    position: fixed;
+    right: 0;
+    padding: 1%;
+    width: 65%;
+}

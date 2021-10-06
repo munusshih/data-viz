@@ -162,3 +162,24 @@ p {
     padding: 1%;
     width: 65%;
 }
+
+@media only screen and (max-width: 800px) {
+    #lefter {
+        position: static;
+        display: block;
+        float: left;
+        width: 100%;
+        padding: 3%;
+    }
+    
+    #my_dataviz {
+        position: static;
+        right: 0;
+        padding: 1%;
+        width: 100%;
+    }
+
+    #curtain, #curtainer{
+        width:100%;
+    }
+}
